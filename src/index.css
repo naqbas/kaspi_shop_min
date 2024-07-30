@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    color: #0089d0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.active {
+    background-color: #0089d0;
+    color: #fff;
+}
+
+.activeHeader {
+    border-bottom: 2px solid #0089d0;
+}
+
+@media screen and (min-width: 420px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    html {
+        font-size: 16px;
+    }
+}
